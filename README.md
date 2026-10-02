@@ -45,9 +45,9 @@ Five .NET microservices on Aspire, gRPC and Azure Service Bus, with Stripe Conne
 
 ### [🧩 Reunion](https://github.com/tomjseery/Reunion)
 
-Dependency-free Result and Option types for .NET, designed around native C# unions.
+A union-first Result and Option library for .NET.
 
-Validated tagged unions on .NET 10, and compiler-checked exhaustive matching through the C# 15 union contract on .NET 11. Published on [NuGet](https://www.nuget.org/packages/Reunion).
+Built around native C# discriminated unions from the ground up, not bolted on. Validated tagged unions on .NET 10, and compiler-checked exhaustive matching through the C# 15 union contract on .NET 11. Dependency-free and published on [NuGet](https://www.nuget.org/packages/Reunion).
 
 `C#` `.NET 10 / 11` `NuGet`
 
