@@ -4,7 +4,7 @@
 
 **Full-stack software engineer · .NET, React and modern C++**
 
-Software Developer at [Infonetica](https://www.infonetica.net) · building [Concertable](https://github.com/Concertable)
+Software Engineer at [Infonetica](https://www.infonetica.net) · building [Concertable](https://github.com/Concertable)
 
 ![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square)
