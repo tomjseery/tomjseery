@@ -1,62 +1,90 @@
 <div align="center">
 
-# Tommy Seery
+# Hi, I'm Tommy 👋
 
-**Full-stack software engineer · .NET, React and modern C++**
+**Software Engineer at [Infonetica](https://www.infonetica.net)** · building [Concertable](https://github.com/Concertable)
 
-Software Engineer at [Infonetica](https://www.infonetica.net) · building [Concertable](https://github.com/Concertable)
+<br/>
 
-![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React_·_React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![C++](https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge)
 
 </div>
 
-### About
+<br/>
 
-- At **Infonetica** I build Research Flow, research-management software used by 150+ universities, NHS
-  organisations and national research bodies. I work across the Pre-award, Ethics and Due Diligence
-  modules in .NET, React and Azure.
-- Outside work I'm building **Concertable**, a live-music booking and payment platform, end to end:
-  the services, the web and mobile apps, the payments and the infrastructure.
-- I also write native Windows C++, Rust tooling for AI coding agents, and run Arch Linux at home.
+## About me
 
-### Featured projects
+- 💼 Software Engineer at **Infonetica**, working on research-management software in .NET, React and Azure
+- 🎸 Building **Concertable**, a live-music booking and payments platform, end to end
+- ⚙️ Also into native Windows C++, Rust and Arch Linux
 
-**[Concertable](https://github.com/Concertable)**: live-music booking and payments for venues and artists<br/>
-Opportunities, applications, signed agreements, messaging and post-show settlement in one workflow.
-Five .NET services (B2B, Customer, Search, Auth, Payment) composed with Aspire and talking over gRPC
-and Azure Service Bus. Stripe Connect handles settlement, with React web and React Native mobile apps
-on Terraform-managed Azure.<br/>
-`C#` · `.NET 10` · `Aspire` · `EF Core` · `gRPC` · `Service Bus` · `Stripe Connect` · `React` · `Expo` · `Terraform`
+<br/>
 
-**[Reunion](https://github.com/tomjseery/Reunion)**: Result and Option types for .NET, designed around native C# unions<br/>
-Dependency-free and [on NuGet](https://www.nuget.org/packages/Reunion). It ships a validated tagged
-union on .NET 10 and implements the C# 15 custom-union contract on .NET 11, so the compiler can
-check exhaustive matches.<br/>
-`C#` · `.NET 10 / 11` · `NuGet`
+## Featured projects
 
-**[Agent Workboard](https://github.com/tomjseery/agent-workboard)**: a local control plane for Claude Code and Codex CLI sessions<br/>
-Binds epics, features, work items, Git worktrees and plans to native agent sessions, with
-capabilities injected per session rather than installed globally.<br/>
-`Rust` · `Windows Terminal` · `PowerShell`
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[winwrap](https://github.com/tomjseery/winwrap)**: an ergonomic modern C++ layer over Win32<br/>
-Messages are routed at compile time with `requires` and deducing `this`, with no vtables or macro message maps.
-Errors are values via `std::expected`, and native lifetimes are owned through WIL.<br/>
-`C++23` · `Win32` · `WIL` · `CMake`
+### [🎸 Concertable](https://github.com/Concertable)
 
-**[Agent Tweaks](https://github.com/tomjseery/agent-tweaks)**: small quality-of-life add-ons for AI coding agents<br/>
-Hold-to-dictate for the Codex CLI using offline Vosk speech recognition, plus session restore for Codex and Claude.<br/>
-`Python` · `Linux`
+Live-music booking and payments for venues and artists. Opportunities, signed agreements, messaging and post-show settlement in one workflow.
+
+Five .NET microservices on Aspire, gRPC and Azure Service Bus, with Stripe Connect payouts and React web and mobile apps.
+
+`.NET 10` `Aspire` `gRPC` `Stripe` `React` `Expo` `Terraform`
+
+</td>
+<td width="50%" valign="top">
+
+### [🧩 Reunion](https://github.com/tomjseery/Reunion)
+
+Dependency-free Result and Option types for .NET, designed around native C# unions.
+
+Validated tagged unions on .NET 10, and compiler-checked exhaustive matching through the C# 15 union contract on .NET 11. Published on [NuGet](https://www.nuget.org/packages/Reunion).
+
+`C#` `.NET 10 / 11` `NuGet`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🗂️ Agent Workboard](https://github.com/tomjseery/agent-workboard)
+
+A local control plane for Claude Code and Codex CLI sessions.
+
+Binds epics, features, work items, Git worktrees and plans to native agent sessions without replacing the terminal experience.
+
+`Rust` `PowerShell`
+
+</td>
+<td width="50%" valign="top">
+
+### [🪟 winwrap](https://github.com/tomjseery/winwrap)
+
+An ergonomic modern C++ layer over Win32.
+
+Compile-time message routing with `requires` and deducing `this`, errors as `std::expected` values and WIL-owned handles. No vtables, no macro message maps.
+
+`C++23` `Win32` `CMake`
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <details>
 <summary><b>Earlier work</b></summary>
+
+<br/>
 
 - [fashion-mnist-cnn](https://github.com/tomjseery/fashion-mnist-cnn): CNN tuned with an LR finder and cosine annealing, >94% accuracy
 - [java-ann](https://github.com/tomjseery/java-ann): a neural network with hand-written backpropagation in plain Java
