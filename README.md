@@ -19,7 +19,6 @@ Software Engineer · building [Concertable](https://github.com/Concertable)
 
 ### About
 
-- At **Infonetica** I work on research-management software for universities and the NHS, in .NET, React and Azure.
 - Outside work I'm building **Concertable**, a live-music booking and payment platform, end to end:
   the services, the web and mobile apps, the payments and the infrastructure.
 - I also write native Windows C++, Rust tooling for AI coding agents, and run Arch Linux at home.
